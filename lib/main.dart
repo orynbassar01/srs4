@@ -18,9 +18,9 @@ class HomePage extends StatelessWidget {
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             colors: [
-              Colors.orange[900],
-              Colors.orange[800],
-              Colors.orange[400]
+              Colors.red[900],
+              Colors.red[800],
+              Colors.red[400]
             ]
           )
         ),
@@ -35,7 +35,7 @@ class HomePage extends StatelessWidget {
                 children: <Widget>[
                   FadeAnimation(1, Text("Login", style: TextStyle(color: Colors.white, fontSize: 40),)),
                   SizedBox(height: 10,),
-                  FadeAnimation(1.3, Text("Welcome Back", style: TextStyle(color: Colors.white, fontSize: 18),)),
+                  FadeAnimation(1.3, Text("Welcome", style: TextStyle(color: Colors.white, fontSize: 18),)),
                 ],
               ),
             ),
@@ -101,7 +101,7 @@ class HomePage extends StatelessWidget {
                           margin: EdgeInsets.symmetric(horizontal: 50),
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(50),
-                            color: Colors.orange[900]
+                            color: Colors.red[900]
                           ),
                           child: Center(
                             child: Text("Login", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
@@ -117,7 +117,7 @@ class HomePage extends StatelessWidget {
                                 height: 50,
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(50),
-                                  color: Colors.blue
+                                  color: Colors.purple
                                 ),
                                 child: Center(
                                   child: Text("Facebook", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
